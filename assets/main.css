@@ -3,7 +3,7 @@ body{
     width:100%;
     height: 100%;
     margin:0;
-    font-family: STKaiti, "Kaiti SC",STFangsong;
+    font-family:STHeiti,SimHei,STSong,SimSun, STKaiti, "Kaiti SC",STFangsong;
     box-sizing: border-box;
 }
 
@@ -13,12 +13,20 @@ body{
     background-color: #fff;
     box-shadow: 1px 1px 2px rgba(136, 136, 136, 0.43);
     clear: both;
+    overflow: auto;
 }
-
+th{
+    vertical-align: text-top;
+}
+table{
+    width: 100%;
+    line-height: 22px;
+    text-align: justify;
+}
 .left-side{
     width: 35%;
     float: left;
-    background: #009688;
+    background: rgba(0, 150, 136, 0.88);
     color: #fff;
     padding: 44px 20px;
     box-sizing: border-box;
@@ -31,9 +39,19 @@ body{
     border-radius: 50%;
     margin: auto;
 }
-.basic-info{
-    width: 100%;
+.left-side table{
     padding: 0 20px;
+}
+.left-side table a{
+    color: #fff;
+}
+.left-side table p{
+    margin-top: 0;
+}
+.left-side table span{
+    color:#004D40;
+    margin: 0 4px 0 0;
+    font-size: 20px;
 }
 h2{
     letter-spacing: 5px;
@@ -44,8 +62,12 @@ h3{
     margin: 0 0 40px;
 }
 .skill-label{
-    width: 20%;
+    width: 35%;
     float: left;
+    box-sizing: border-box;
+    text-align: end;
+    padding: 0 10px 0 0;
+    font-size: 16px;
 }
 ul{
     list-style-type: none;
@@ -53,15 +75,19 @@ ul{
 }
 li{
     clear: both;
+    padding: 10px 0;
 }
 .progress-box{
-    width: 70%;
+    width: 65%;
     float: right;
     background: rgba(64, 64, 64, 0.44);
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 .progress-bar{
-    height: 5px;
-    background: #000;
+    height: 12px;
+    background: #E0F2F1;
+    border-radius: 5px;
 }
 
 .right-side{
@@ -69,4 +95,29 @@ li{
     float: right;
     padding: 44px 5px;
     box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.63);
+    font-weight: 600;
+}
+.right-side table{
+    padding: 20px 40px;
+
+}
+.right-side table a{
+    color: rgba(0, 77, 64, 0.65);
+    text-decoration: none;
+}
+.right-side table p{
+    margin-top: 0;
+}
+.right-side table .title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.project-label{
+    font-size: 18px;
+    color: rgba(0, 77, 64, 0.67);
+    margin-bottom: 10px;
+    font-family: initial;
+    letter-spacing: 1px;
 }
