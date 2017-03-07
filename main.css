@@ -59,7 +59,7 @@ h2{
 }
 h3{
     letter-spacing: 1px;
-    margin: 0 0 40px;
+    margin: 0 0 100px;
     padding-bottom: 35px;
     border-bottom: 3px #fff solid;
 }
@@ -74,6 +74,7 @@ h3{
 ul{
     list-style-type: none;
     padding: 10px 35px 10px 25px;
+    margin: 40px 0 95px 0;
 }
 li{
     clear: both;
@@ -101,7 +102,7 @@ li{
     font-weight: 600;
 }
 .right-side table{
-    padding: 0 40px 10px;
+    padding: 0 40px 35px;
 
 }
 .right-side table a{
@@ -109,7 +110,7 @@ li{
     text-decoration: none;
 }
 .right-side table p{
-    margin-top: 0;
+    margin: 15px 0;
 }
 .right-side table .title{
     font-size: 30px;
@@ -125,11 +126,34 @@ li{
 }
 .skill-tag{
     font-family: initial;
-    border-bottom: 1px rgba(0, 137, 123, 0.4) solid;
+    border-bottom: 1px rgba(0, 137, 123, 0.16) solid;
     padding: 0 0 0 20px;
     font-size: 15px;
+    color: #1ea296;
 }
 .project-content{
     padding: 0 0 0 20px;
     font-size: 15px;
+}
+
+.aside{
+    position: fixed;
+    right: -40px;
+    top:40px;
+    width: 200px;
+    height: 30px;
+    background-color: #1ea296;
+    text-align: center;
+    line-height: 30px;
+    transform: rotate(45deg);
+}
+
+.aside a{
+    color: #fff;
+    font-size:14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.en-version{
+    font-family: initial;
 }
