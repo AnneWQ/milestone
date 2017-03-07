@@ -1,0 +1,58 @@
+html,
+body{
+    width:100%;
+    height: 100%;
+    margin:0;
+    background-color:#e7eae9;
+}
+
+.container {
+    padding: 44px;
+    width: 980px;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px rgba(136, 136, 136, 0.43);
+}
+
+.left-side{
+    width: 30%;
+    border-right: 1px rgba(0, 0, 0, 0.29) solid;
+}
+.photo-box{
+    text-align: center;
+}
+.left-side img{
+    width: 50%;
+    border-radius: 50%;
+    margin: auto;
+}
+.basic-info{
+    width: 100%;
+    padding: 0 20px;
+}
+.skill-label{
+    width: 20%;
+    position: absolute;
+    left:0;
+}
+ul{
+    list-style: none inside url('/assets/li-icon.jpg');
+    padding: 10px 35px 10px 25px;
+}
+.skill-container{
+    position: relative;
+}
+.progress-box{
+width: 70%;
+    position: absolute;
+    right: 0;
+    background: rgba(64, 64, 64, 0.44);
+}
+.progress-bar{
+    height: 5px;
+    background: #000;
+}
+
+.right-side{
+    width: 70%;
+}
