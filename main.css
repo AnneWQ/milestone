@@ -146,6 +146,20 @@ li{
     line-height: 30px;
     transform: rotate(45deg);
 }
+.float-button{
+    position: fixed;
+    right: 10%;
+    top:90%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #1ea296;
+    text-align: center;
+    color: #fff;
+    line-height: 65px;
+    font-size: 30px;
+    text-decoration: none;
+}
 
 .aside a{
     color: #fff;
