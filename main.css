@@ -170,6 +170,9 @@ li{
 .en-version{
     font-family: initial;
 }
+.en-version table{
+    line-height: 20px;
+}
 .en-version h2{
     letter-spacing: 0;
 }
