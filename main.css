@@ -10,10 +10,10 @@ body{
 .container {
     width: 980px;
     margin: 40px auto;
-    background-color: #fff;
     box-shadow: 1px 1px 2px rgba(136, 136, 136, 0.43);
     clear: both;
     overflow: auto;
+    background: linear-gradient(to left, #fff 65%, #04978a 35%);
 }
 th{
     vertical-align: text-top;
@@ -26,7 +26,6 @@ table{
 .left-side{
     width: 35%;
     float: left;
-    background: rgba(0, 150, 136, 0.88);
     color: #fff;
     padding: 44px 20px 65px;
     box-sizing: border-box;
@@ -156,4 +155,10 @@ li{
 }
 .en-version{
     font-family: initial;
+}
+.en-version h2{
+    letter-spacing: 0;
+}
+.en-version .left-side table{
+    letter-spacing: 1px;
 }
