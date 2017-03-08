@@ -176,7 +176,7 @@ li{
 .en-version .left-side table{
     letter-spacing: 1px;
 }
-@media (min-width: 560px) {
+@media (max-width: 560px) {
     .float-button{
         width: 130px;
         height: 130px;
