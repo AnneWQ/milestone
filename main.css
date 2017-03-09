@@ -101,7 +101,7 @@ li{
     font-weight: 600;
 }
 .right-side table{
-    padding: 0 40px 35px;
+    padding: 0 40px;
 
 }
 .right-side table a{
@@ -182,4 +182,10 @@ li{
 }
 .c-skill-tag{
     color: #1ea296;
+    font-family: initial;
+    font-weight: 700;
+}
+.link-icon{
+    margin-right: 3px;
+    font-size: 14px !important;
 }
