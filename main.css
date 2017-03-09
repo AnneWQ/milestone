@@ -133,6 +133,7 @@ li{
 .project-content{
     padding: 0 0 0 20px;
     font-size: 15px;
+    font-weight: 400;
 }
 
 .aside{
@@ -148,8 +149,8 @@ li{
 }
 .float-button{
     position: fixed;
-    right: 10%;
-    top:90%;
+    right: 100px;
+    top:50px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -178,4 +179,7 @@ li{
 }
 .en-version .left-side table{
     letter-spacing: 1px;
+}
+.c-skill-tag{
+    color: #1ea296;
 }
