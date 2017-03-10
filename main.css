@@ -5,6 +5,7 @@ body{
     margin:0;
     font-family:STHeiti,SimHei,STSong,SimSun, STKaiti, "Kaiti SC",STFangsong;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
 }
 
 .container {
